@@ -1,0 +1,17 @@
+{
+  "name": "bc_digitalsignature",
+  "version": "1.0.0",
+  "description": "Javascript code to demonstrate ECDSA",
+  "main": "sign.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashfaq Ahmed S",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.6",
+    "eccrypto": "^1.0.3",
+    "power-radix": "^2.5.1",
+    "power-radix-encodings": "^1.1.0"
+  }
+}

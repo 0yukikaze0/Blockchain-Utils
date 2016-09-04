@@ -37,7 +37,7 @@ function buildPrivateKey(){
      * Private Key = Hex representation of this randomness
      *---------------------------------------------------------*/
     var randomData = rtvRandomNumber();
-    console.log('   +- Generating private key');
+    console.log('   +- Generating private key');    
     return randomData;  
     /*---------------------------------------------------------*/
 
@@ -128,7 +128,7 @@ function execute(){
     var privateKey      = buildPrivateKey();
     var publicKey       = buildPublicKey(privateKey); 
     var address         = buildAddress(publicKey); 
-    var base58Addr     = buildBase58Representation(address);
+    var base58Addr      = buildBase58Representation(address);
     console.log('Private Key    : ' + privateKey.toString('hex'));
     console.log('Public Key     : ' + publicKey.toString('hex'));
     console.log('Address        : ' + address);
