@@ -81,9 +81,9 @@ function buildBase58Representation(address){
      * Checksum is the first 4 bytes of a double sha256 digest of
      * current address
      * 
-     * checkSum = (sha256(sha256(address))).substring(0,8)
+     * checkSum = (sha256(sha256(version + address))).substring(0,8)
      *---------------------------------------------------------*/
-    var digest      = sha256(sha256(address)).toString();
+    var digest      = sha256(sha256('00' + address)).toString();
     var checkSum    = digest.substring(0,8); 
 
     var data       = '00' + address + checkSum;
