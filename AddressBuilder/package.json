@@ -1,0 +1,19 @@
+{
+  "name": "bc_addressbuilder",
+  "version": "1.0.0",
+  "description": "Javascript utility to build Blockchain addresses",
+  "main": "buildAddress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashfaq Ahmed S",
+  "license": "ISC",
+  "dependencies": {
+    "base-58": "0.0.1",
+    "bs58": "^3.0.0",
+    "crypto-js": "^3.1.6",
+    "csprng": "^0.1.1",
+    "eccrypto": "^1.0.3",
+    "ripemd160": "^2.0.1"
+  }
+}
