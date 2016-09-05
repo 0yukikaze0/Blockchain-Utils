@@ -1,0 +1,11 @@
+{
+  "name": "merklegenerator",
+  "version": "1.0.0",
+  "description": "Demonstration code for merkle root generation",
+  "main": "merklegen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashfaq Ahmed. S",
+  "license": "ISC"
+}
