@@ -1,0 +1,11 @@
+{
+  "name": "blockexplorer",
+  "version": "1.0.0",
+  "description": "Blockchain explorer based on blockr api",
+  "main": "explore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashfaq Ahmed S",
+  "license": "ISC"
+}
